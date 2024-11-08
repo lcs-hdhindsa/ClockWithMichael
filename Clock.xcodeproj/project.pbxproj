@@ -11,6 +11,9 @@
 		4CE607472CDE523A002E629D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE607422CDE523A002E629D /* Assets.xcassets */; };
 		4CE607482CDE523A002E629D /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE607432CDE523A002E629D /* ClockApp.swift */; };
 		4CE607492CDE523A002E629D /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE607442CDE523A002E629D /* LandingView.swift */; };
+		4CE6074D2CDE53B8002E629D /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE6074C2CDE53B8002E629D /* WorldClockView.swift */; };
+		4CE6074F2CDE53CE002E629D /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE6074E2CDE53CE002E629D /* AlarmView.swift */; };
+		4CE607512CDE53E3002E629D /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE607502CDE53E3002E629D /* StopWatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		4CE607422CDE523A002E629D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CE607432CDE523A002E629D /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
 		4CE607442CDE523A002E629D /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		4CE6074C2CDE53B8002E629D /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
+		4CE6074E2CDE53CE002E629D /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		4CE607502CDE53E3002E629D /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				4CE607442CDE523A002E629D /* LandingView.swift */,
+				4CE6074C2CDE53B8002E629D /* WorldClockView.swift */,
+				4CE6074E2CDE53CE002E629D /* AlarmView.swift */,
+				4CE607502CDE53E3002E629D /* StopWatchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CE607482CDE523A002E629D /* ClockApp.swift in Sources */,
+				4CE607512CDE53E3002E629D /* StopWatchView.swift in Sources */,
+				4CE6074D2CDE53B8002E629D /* WorldClockView.swift in Sources */,
+				4CE6074F2CDE53CE002E629D /* AlarmView.swift in Sources */,
 				4CE607492CDE523A002E629D /* LandingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
