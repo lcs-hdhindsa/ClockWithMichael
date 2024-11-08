@@ -11,7 +11,6 @@ struct LandingView: View {
     var body: some View {
         VStack {
             TabView(selection: Binding.constant(1)) {
-                
                 WorldClockView()
                     .tabItem {
                         Image(systemName: "globe")
@@ -32,8 +31,9 @@ struct LandingView: View {
                         Text("Stopwatch")
                     }
                     .tag(3)
-     
             }
+            .preferredColorScheme(.dark)
+            .tint(.pink)
         }
         .padding()
     }
